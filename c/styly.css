@@ -1,0 +1,70 @@
+/*
+************************
+Created by Stepan Pesout
+*****www.pesout.eu******
+*****@stepanpesout******
+************************
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body
+{
+  background-color: #ecf0f1;
+}
+
+.text
+{
+  font-family: 'Roboto', sans-serif;
+  margin:7px;
+  margin-top:15px;
+  font-size: 11pt;
+  line-height:18px;
+}
+
+
+#platno
+{
+  margin:0px;
+}
+
+#popisky
+{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 35px;
+  height: 137px;
+  background-color: #16a085;
+  font-size: 9pt;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  padding-top: 4px;
+}
+
+#popisky > div
+{
+  margin-top:48px;
+  margin-bottom: 37px;
+}
+
+.popis
+{
+  font-weight: bold;
+}
+
+#detail
+{
+  display: none;
+  margin-top: 20px;
+}
+
+#tlacitko
+{
+  border: 1px solid #000;
+  padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 2px;
+}

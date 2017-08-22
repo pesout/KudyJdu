@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+
+<!--
+************************
+Created by Stepan Pesout
+*****www.pesout.eu******
+*****@stepanpesout******
+************************
+-->
+
+<html>
+<head>
+	<meta http-equiv="Content-Language" content="cs">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="styly.css">
+	<title>Cesta | KudyJdu</title>
+	<meta property="fb:admins" content="100001802478636">
+	<link rel="author" href="http://github.com/pesout">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body onload="zprac();">
+
+<script>
+document.write('<canvas width="' + (window.innerWidth*1 - 35) + '" height="141" id="platno" style="margin-left:35px;"></canvas><br>')
+</script>
+
+<div id="popisky">
+<span id="po1">9999</span><br>
+<div id="po2">9999</div><br>
+<span id="po3">9999</span>
+</div>
+
+<div class="text">
+<span class="popis">Počáteční nadmořská výška</span><br><span id="a"></span> m n. m.<br><br>
+<span class="popis">Koncová nadmořská výška</span><br><span id="b"></span> m n. m.<br><br>
+<span class="popis">Celkové stoupání</span><br><span id="c"></span> m<br><br>
+<span class="popis">Celkové klesání</span><br><span id="d"></span> m<br><br>
+<span class="popis">Nejvyšší bod</span><br><span id="f"></span> m n. m.<br><br>
+<span class="popis">Nejnižší bod</span><br><span id="g"></span> m n. m.<br><br>
+
+<span id="tlacitko" onclick="detail()">Zobrazit detaily</span>
+
+<div id="detail">
+<span class="popis">Vhodné pro kola</span><br><span id="hor"></span><br><br>
+<span class="popis">Možné jít v lehké obuvi</span><br><span id="tre"></span><br><br>
+<span class="popis">Vhodné pro auta</span><br><span id="aut"></span><br><br>
+<span class="popis">Vhodné pro kočárky</span><br><span id="zhm"></span><br><br>
+<span class="popis">Většinou zpevněný povrch</span><br><span id="zpp"></span><br><br>
+<span class="popis">Zahrnuje náročné úseky (skály, žebříky, atd.)</span><br><span id="nau"></span><br><br>
+<span class="popis">Vede většinou ve stínu</span><br><span id="les"></span><br><br>
+
+<span id="url"></span>
+</div>
+
+</div>
+<script src="code.js"></script>
+</body>
+</html>

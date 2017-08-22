@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+
+<!--
+************************
+Created by Stepan Pesout
+*****www.pesout.eu******
+*****@stepanpesout******
+************************
+-->
+
+<html>
+<head>
+	<meta http-equiv="Content-Language" content="cs">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="styly.css">
+	<link rel="stylesheet" href="tisk.css" media="print">
+	<title>Generátor | KudyJdu</title>
+	<meta property="fb:admins" content="100001802478636">
+	<link rel="author" href="http://github.com/pesout">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script src="input.js"></script>
+	<script src="vyska.js"></script>
+	<script type="text/javascript" src="qr/jquery.min.js"></script>
+	<script type="text/javascript" src="qr/qrcode.js"></script>
+</head>
+<body>
+
+<form name="formular" onsubmit="return false" id="formular">
+<strong>Vstup (výšky jednotlivých bodů nebo souřadnice)</strong><br>
+<textarea class="vstup1" name="vstup1" pattern="\d*"></textarea><br>
+<span><a href="#" onclick="sourad();" class="konverze">Konverze ze souřadnic</a> (viz <a href="#" class="konverze" onclick="alert('Délku a šířku oddělujte čárkou a mezerou, každý bod na nový řádek; používejte desetinnou tečku: \n0.0000, 0.0000 \n0.0000, 0.0000');">správný formát vstupu</a>)</span>
+
+<div id="del">
+	<strong>Oddělení jednotlivých hodnot</strong><br>
+	<input type="radio" name="deleni" value="ca" checked="checked">&nbsp;Čárka
+	<input type="radio" name="deleni" value="ps">&nbsp;Nový řádek
+	<input type="radio" name="deleni" value="me">&nbsp;Mezera
+</div>
+
+<hr>
+
+<strong>Doplňující informace</strong>
+
+<table>
+
+<tr><td>Vhodné pro kola</td><td>
+<input type="radio" name="hor" value="1" checked="checked">&nbsp;Ano
+<input type="radio" name="hor" value="2">&nbsp;Ne</td></tr>
+
+<tr class="sede"><td>Možné jít v lehké obuvi</td><td>
+<input type="radio" name="tre" value="1" checked="checked">&nbsp;Ano
+<input type="radio" name="tre" value="2">&nbsp;Ne</td></tr>
+
+<tr><td>Vhodné pro auta</td><td>
+<input type="radio" name="aut" value="1" checked="checked">&nbsp;Ano
+<input type="radio" name="aut" value="2">&nbsp;Ne</td></tr>
+
+<tr class="sede"><td>Vhodné pro kočárky</td><td>
+<input type="radio" name="zhm" value="1" checked="checked">&nbsp;Ano
+<input type="radio" name="zhm" value="2">&nbsp;Ne</td></tr>
+
+<tr><td>Většinou zpevněný povrch</td><td>
+<input type="radio" name="zpp" value="1" checked="checked">&nbsp;Ano
+<input type="radio" name="zpp" value="2">&nbsp;Ne</td></tr>
+
+<tr class="sede"><td>Zahrnuje náročné úseky (skály, žebříky, atd.)</td><td>
+<input type="radio" name="nau" value="1" checked="checked">&nbsp;Ano
+<input type="radio" name="nau" value="2">&nbsp;Ne</td></tr>
+
+<tr><td>Vede většinou ve stínu</td><td>
+<input type="radio" name="les" value="1" checked="checked">&nbsp;Ano
+<input type="radio" name="les" value="2">&nbsp;Ne</td></tr>
+
+</table>
+
+<hr>
+
+<strong>Webová stránka</strong>(bez http://)<br>
+<input type="text" name="url" id="url">
+
+<br><br>
+
+<input type="submit" value="Generovat" onclick="vstup();" class="tlacitko">
+<input type="submit" value="Reset" onclick="window.location.href='index.html'" class="tlacitko">
+<input type="submit" value="Tisk QR kódu" onclick="window.print()" class="tlacitko">
+
+</form>
+
+<div id="vystup"></div>
+<div id="dialog">&nbsp;</div>
+
+</body>
+</html>

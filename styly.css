@@ -1,0 +1,89 @@
+/*
+************************
+Created by Stepan Pesout
+*****www.pesout.eu******
+*****@stepanpesout******
+************************
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body
+{
+  font-family: 'Roboto', sans-serif;
+  width:95%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  line-height: 1.5em;
+}
+
+strong
+{
+  font-weight: bold;
+}
+
+textarea
+{
+  resize: vertical;
+  max-width:500px;
+  width: 98%;
+  height: 120px;
+  margin-top: 7px;
+  border:2px solid #333;
+}
+
+.konverze
+{
+  color:#067055;
+  font-size: 10pt;
+}
+
+#del
+{
+  margin-top: 20px;
+}
+
+td
+{
+  padding-right: 5px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+.sede
+{
+  background-color: #eee;
+}
+
+table
+{
+  width: 100%;
+}
+
+form > span
+{
+  font-size: 10pt;
+}
+
+#url
+{
+  width:99%;
+  margin-top: 5px;
+  border: 0px;
+  border:2px solid #333;
+}
+
+.tlacitko
+{
+  width: 149px;
+  background-color: #eee;
+  font-weight: bold;
+  font-size: 11pt;
+  padding: 3px;
+  margin-bottom: 20px;
+  margin-left: 7px;
+  margin-right: 7px;
+  border: 2px solid #333;
+}

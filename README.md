@@ -4,7 +4,7 @@
 
 ## Podmínky použití
 
-Tuto apliklaci lze nekomerčně používat a upravovat dle libosti, je ale nutné uvést jméno autora a odkaz na jeho webové stránky ([pesout.eu](http://pesout.eu)).
+Tuto apliklaci lze nekomerčně používat a upravovat dle libosti, je ale nutné uvést jméno autora (Štěpán Pešout) a odkaz na jeho webové stránky ([pesout.eu](http://pesout.eu)).
 
 ## Popis
 

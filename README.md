@@ -12,6 +12,9 @@ Po zadání informací o vytyčené trase se vygeneruje QR kód. Ten se umístí
 
 Výhodou je, že všechna data o trase jsou v QR kódu a není tak třeba zajišťovat databáze apod. Z internetu se v případě naskenování stáhne pouze část algoritmu nutná ke zpracování, přičemž velikost se pohybuje kolem 9 kB. Díky této vlastnosti lze algoritmus používat i při snížené rychlosti připojení nebo špatném signálu.
 
+Zkuste si naskenovat testovací kód:
+![Testovací QR kód](https://rawgit.com/pesout/KudyJdu/master/ukazka.png)
+
 ## Jak zadávat vstupní hodnoty
 
 ### Pole (textarea) v horní části
@@ -62,3 +65,6 @@ Výhodou je, že všechna data o trase jsou v QR kódu a není tak třeba zajiš
 
 ## Přečtení QR kódu
 - po načtení libovonou aplikací přejděte na odkaz, který kód obsahuje
+
+## Generátor QR kódů
+- Původní projekt: [https://davidshimjs.github.io/qrcodejs/](https://davidshimjs.github.io/qrcodejs/)

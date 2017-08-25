@@ -36,6 +36,8 @@ Výhodou je, že všechna data o trase jsou v QR kódu a není tak třeba zajiš
 ```
 
 
+-**Doporučení**: Zadávejte rozumný počet bodů (cca do 35), aby byl QR kód stále čitelný i s low-endovými smartphony disponujícími horšími fotoaparáty.
+
 ## Konverze ze souřadnic
 - používá Google Maps API; mohou se vyskytnout drobné nepřesnosti
 - uživatel zadá souřadnice do pole pro vstup a klepne na odkaz "Konverze ze souřadnic"
@@ -48,5 +50,7 @@ Výhodou je, že všechna data o trase jsou v QR kódu a není tak třeba zajiš
 
 ## Vlastnosti
 - v ukázkové verzi jsou pojmenovány jako Vlastnost 1 až 7
-- v praxi půjde o otázky s boolean odpovědí popisující charakter cesty
+- v praxi půjde o otázky s boolean odpovědí popisující charakter cesty, např. sjízdnost na kole
 
+## Webová adresa
+- nepovinné pole, kam lze vložit odkaz na další informace o cestě aj.

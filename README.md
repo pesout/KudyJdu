@@ -14,6 +14,7 @@ Výhodou je, že všechna data o trase jsou v QR kódu a není tak třeba zajiš
 - uživatel má na výběr 3 formáty, svou volbu vybere pomocí radio buttonu pod polem pro vstup
 
 
+
 - varianta "Čárka" znamená vstup ve formátu
 
 ```

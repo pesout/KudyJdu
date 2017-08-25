@@ -27,6 +27,8 @@ Created by Stepan Pesout
 </head>
 <body>
 
+<h2><a href="http://pesout.github.io/KudyJdu">O projektu</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://pesout.eu">Autor</a></h2>
+
 <form name="formular" onsubmit="return false" id="formular">
 <strong>Vstup (výšky jednotlivých bodů nebo souřadnice)</strong><br>
 <textarea class="vstup1" name="vstup1" pattern="\d*"></textarea><br>
@@ -45,31 +47,31 @@ Created by Stepan Pesout
 
 <table>
 
-<tr><td>Vhodné pro kola</td><td>
+<tr><td>Vlastnost 1</td><td class="vpravo">
 <input type="radio" name="hor" value="1" checked="checked">&nbsp;Ano
 <input type="radio" name="hor" value="2">&nbsp;Ne</td></tr>
 
-<tr class="sede"><td>Možné jít v lehké obuvi</td><td>
+<tr class="sede"><td>Vlastnost 2</td><td class="vpravo">
 <input type="radio" name="tre" value="1" checked="checked">&nbsp;Ano
 <input type="radio" name="tre" value="2">&nbsp;Ne</td></tr>
 
-<tr><td>Vhodné pro auta</td><td>
+<tr><td>Vlastnost 3</td><td class="vpravo">
 <input type="radio" name="aut" value="1" checked="checked">&nbsp;Ano
 <input type="radio" name="aut" value="2">&nbsp;Ne</td></tr>
 
-<tr class="sede"><td>Vhodné pro kočárky</td><td>
+<tr class="sede"><td>Vlastnost 4</td><td class="vpravo">
 <input type="radio" name="zhm" value="1" checked="checked">&nbsp;Ano
 <input type="radio" name="zhm" value="2">&nbsp;Ne</td></tr>
 
-<tr><td>Většinou zpevněný povrch</td><td>
+<tr><td>Vlastnost 5</td><td class="vpravo">
 <input type="radio" name="zpp" value="1" checked="checked">&nbsp;Ano
 <input type="radio" name="zpp" value="2">&nbsp;Ne</td></tr>
 
-<tr class="sede"><td>Zahrnuje náročné úseky (skály, žebříky, atd.)</td><td>
+<tr class="sede"><td>Vlastnost 6</td><td class="vpravo">
 <input type="radio" name="nau" value="1" checked="checked">&nbsp;Ano
 <input type="radio" name="nau" value="2">&nbsp;Ne</td></tr>
 
-<tr><td>Vede většinou ve stínu</td><td>
+<tr><td>Vlastnost 7</td><td class="vpravo">
 <input type="radio" name="les" value="1" checked="checked">&nbsp;Ano
 <input type="radio" name="les" value="2">&nbsp;Ne</td></tr>
 
@@ -83,7 +85,7 @@ Created by Stepan Pesout
 <br><br>
 
 <input type="submit" value="Generovat" onclick="vstup();" class="tlacitko">
-<input type="submit" value="Reset" onclick="window.location.href='generator.html'" class="tlacitko">
+<input type="submit" value="Reset" onclick="window.location.href='index.html'" class="tlacitko">
 <input type="submit" value="Tisk QR kódu" onclick="window.print()" class="tlacitko">
 
 </form>

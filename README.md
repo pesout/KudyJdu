@@ -1,10 +1,10 @@
 # KudyJdu
 
-- [http://kudy.pesout.eu](kudy.pesout.eu)
+- [kudy.pesout.eu](http://kudy.pesout.eu)
 
 ## Podmínky použití
 
-Tuto apliklaci lze nekomerčně používat a upravovat dle libosti, je ale nutné uvést jméno autora a odkaz na jeho webové stránky ([http://pesout.eu](pesout.eu)).
+Tuto apliklaci lze nekomerčně používat a upravovat dle libosti, je ale nutné uvést jméno autora a odkaz na jeho webové stránky ([pesout.eu](http://pesout.eu)).
 
 ## Popis
 

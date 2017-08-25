@@ -22,7 +22,6 @@ Výhodou je, že všechna data o trase jsou v QR kódu a není tak třeba zajiš
 
 
 - varianta "Čárka" znamená vstup ve formátu
-
 ```
 000,000,000
 ```

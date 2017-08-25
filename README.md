@@ -12,7 +12,8 @@ Po zadání informací o vytyčené trase se vygeneruje QR kód. Ten se umístí
 
 Výhodou je, že všechna data o trase jsou v QR kódu a není tak třeba zajišťovat databáze apod. Z internetu se v případě naskenování stáhne pouze část algoritmu nutná ke zpracování, přičemž velikost se pohybuje kolem 9 kB. Díky této vlastnosti lze algoritmus používat i při snížené rychlosti připojení nebo špatném signálu.
 
-Zkuste si naskenovat testovací kód:
+Zkuste si naskenovat tento testovací kód:
+
 ![Testovací QR kód](https://rawgit.com/pesout/KudyJdu/master/ukazka.png)
 
 ## Jak zadávat vstupní hodnoty

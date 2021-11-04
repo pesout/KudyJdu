@@ -4,7 +4,7 @@
 
 ## Podmínky použití
 
-Tuto apliklaci lze nekomerčně používat a upravovat dle libosti, je ale nutné uvést jméno autora (Štěpán Pešout) a odkaz na jeho webové stránky ([pesout.eu](http://pesout.eu)).
+Tuto apliklaci lze nekomerčně používat a upravovat dle libosti, je ale nutné uvést jméno autora (Štěpán Pešout) a odkaz na jeho webové stránky ([pesout.net](http://pesout.net)).
 
 ## Popis
 
@@ -14,7 +14,7 @@ Výhodou je, že všechna data o trase jsou v QR kódu a není tak třeba zajiš
 
 Zkuste si naskenovat tento testovací kód:
 
-![Testovací QR kód](https://rawgit.com/pesout/KudyJdu/master/ukazka.png)
+![Testovací QR kód](ukazka.png)
 
 ## Jak zadávat vstupní hodnoty
 
